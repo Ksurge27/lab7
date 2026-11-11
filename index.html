@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIS-130 Lab 7: Responsive Web Design</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Computer Hardware &amp; Web Systems</h1>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#topics">Topics</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Responsive Web Architecture</h2>
+            <p>Responsive Web Design (RWD) ensures web applications adapt seamlessly across mobile (390px), tablet (768px), and desktop (1200px) viewports using fluid grids, media queries, and container queries[cite: 21].</p>
+            
+            <img src="images/hardware-overview.jpg" alt="Responsive web design layout diagram illustrating fluid breakpoints">
+
+            <div class="card-panel">
+                <div class="card-list">
+                    <article class="card">
+                        <h3>Fluid Images &amp; Layouts</h3>
+                        <p>Using relative units like <code>max-width: 100%</code> and <code>min()</code> prevents content overflow on narrow screens[cite: 22].</p>
+                    </article>
+                    <article class="card">
+                        <h3>Container Queries</h3>
+                        <p>Container queries allow cards to respond to parent container width changes independent of viewport size[cite: 23, 24].</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <aside>
+            <h3>Quick Links &amp; Info</h3>
+            <p>This sidebar displays below main content on mobile screens and shifts side-by-side on viewports 768px and wider[cite: 22].</p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Kiandre Surgeon. CIS-130 Responsive Web Design Lab.</p>
+    </footer>
+</body>
+</html>
